@@ -13,7 +13,7 @@ A [pre-commit](https://pre-commit.com) hook that automatically strips inline com
 Add this to your `.pre-commit-config.yaml`:
 
 ```yaml
--   repo: https://github.com/yourusername/remove-comments
+-   repo: https://github.com/ashrobertsdragon/remove-comments
     rev: v0.1.0  # Use the latest tag
     hooks:
     -   id: remove-comments
