@@ -1,0 +1,6 @@
+-   id: remove-comments
+    name: Remove Inline Comments
+    description: Automatically strips inline comments from code files.
+    entry: python remove_comments.py
+    language: python
+    files: \.(py|c|cpp|h|hpp|java|js|ts|jsx|tsx|go|rs|kt|swift|php|cs|sh|yaml|yml|rb|pl)$
