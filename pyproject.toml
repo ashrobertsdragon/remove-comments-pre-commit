@@ -1,6 +1,6 @@
 [project]
 name = "remove-comments"
-version = "0.1.1"
+version = "0.2.0"
 description = "A pre-commit hook to remove inline comments from code files."
 requires-python = ">=3.10"
 dependencies = []
@@ -20,3 +20,10 @@ classifiers = [
   "Programming Language :: Python :: 3.14",
   "Topic :: Software Development :: Version Control :: Git"
 ]
+
+[project.scripts]
+remove-comments = "remove_comments:main"
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
