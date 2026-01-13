@@ -1,6 +1,6 @@
 [project]
 name = "remove-comments"
-version = "0.1.0"
+version = "0.1.1"
 description = "A pre-commit hook to remove inline comments from code files."
 requires-python = ">=3.10"
 dependencies = []
@@ -11,7 +11,6 @@ classifiers = [
   "Development Status :: 4 - Beta",
   "Environment :: Plugins",
   "Intended Audience :: Developers",
-  "License :: OSI Approved :: MIT License",
   "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
